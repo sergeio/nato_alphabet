@@ -1,0 +1,7 @@
+#! /bin/bash
+
+mkdir -p ~/bin
+
+PROJECTDIR=$(cd $(dirname $0); pwd)
+ln -s $PROJECTDIR/nato.py ~/bin/nato
+chmod +x ~/bin/nato
